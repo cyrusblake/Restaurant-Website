@@ -29,7 +29,7 @@ body {
     margin: 0%;
     height: 650px;
     width: auto;
-    background-image: url("/images/wall-plants.jpg");
+    background-image: url("wall-plants.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
