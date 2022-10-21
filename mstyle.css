@@ -20,7 +20,7 @@ body {
  
     height: 400px;
     width:auto;
-    background-image: url("/images/wall-plants.jpg");
+    background-image: url("wall-plants.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
