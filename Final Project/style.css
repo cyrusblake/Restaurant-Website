@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px white,
+        0 0 42px green,
+        0 0 82px green,
+        0 0 92px green,
+        0 0 102px green,
+        0 0 151px green,
+}
+
+
+/* Body */
+    
+body {
+    min-width: 800px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: whitesmoke;
+    background-image: url("/images/wall-plants.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+   
+    
+    
+}  
+
+/*Section One */
+#section-one {
+    margin-top: 0px;
+    margin-bottom: -1%;
+
+    
+
+
+   
+}
+
+
+
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+   
+    
+}
+  
+li > a{
+    float: right;
+    display: block;
+    color:  white;
+    text-align: center;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;                                                                                                                                                                                  
+    font-weight: bold;
+    font-family:'Exo 2', sans-serif;
+    
+      
+}
+  
+
+li a:hover {
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+
+
+
+/* Nav Bar */
+
+
+.entergalacticdiv > h1 , h2 {
+    text-align: center;
+}  
+
+
+
+h1, h2 > a {
+    
+    color: white;
+    font-weight: 400;
+    font-family:'Exo 2', sans-serif;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    
+}
+
+#crest{
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 280px;
+    margin-bottom: 0px;
+}    
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+  
+   
+}
+
+
+.res:hover {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+}
+
+
+/*
+  
+@keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px white,
+        0 0 40px green,
+        0 0 80px green,
+        0 0 90px green,
+        0 0 100px green,
+        0 0 150px green;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px white,
+      0 0 38px green,
+      0 0 73px green,
+      0 0 80px green,
+      0 0 94px green,
+      0 0 140px green;
+    }
+}
+*/
