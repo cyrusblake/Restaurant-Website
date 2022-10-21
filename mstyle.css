@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+body {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: whitesmoke;
+}  
+
+/*Section One */
+#section-one {
+    margin-top: 0px;
+    margin-bottom: -1%;
+   
+}
+
+
+.entergalacticdiv {
+ 
+    height: 400px;
+    width:auto;
+    background-image: url("/images/wall-plants.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+
+}
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+   
+    
+}
+  
+li > a{
+    float: right;
+    display: block;
+    color:  white;
+    text-align: center;
+    padding: 6px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;                                                                                                                                                                                  
+    font-weight: bold;
+    font-family:'Exo 2', sans-serif;
+    
+      
+}
+  
+
+li a:hover {
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+
+.entergalacticdiv > h1 , h2 {
+    text-align: center;
+}  
+
+
+
+h1, h2 > a {
+    
+    color: white;
+    font-weight: 400;
+    font-family:'Exo 2', sans-serif;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 150px;
+    margin-bottom: 0px;
+}    
+
+
+/* Nav Bar */
+
+.res:hover {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+}
+
+/*Section Two */
+#section-two {
+    margin-top: 50px;
+    background-color: whitesmoke;
+   
+
+}
+
+
+
+/*Flex*/
+* {
+    box-sizing: border-box;
+}
+  
+.flex-container {
+    background-color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+  /*Card 1 */
+.flex-item-left {
+    
+    background-color: whitesmoke;
+    height: 600px;
+    flex: 33%;
+
+
+  }
+
+
+
+.flex-item-middle {
+
+    background-color: whitesmoke;
+    height: 600px;
+    flex: 33%;
+}
+  
+.flex-item-right {
+   
+    background-color: whitesmoke;
+    height: 600px;
+    flex: 33%;
+}
+
+.border img {
+    transition: .5s ease;
+}
+    
+.border img:hover{
+    box-shadow: 0 0 0 10px darkolivegreen;
+    transition: .5s ease;
+}
+
+
+
+/*Flex*/
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left, .flex-item-middle {
+    flex: 100%;
+    }
+}
+
+/*Footer */
+footer {
+    background-color: black;
+    height: 100px;
+    
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+footer > p {
+    padding: 40px;
+    color: white;
+}
+
+
+/*Footer */
